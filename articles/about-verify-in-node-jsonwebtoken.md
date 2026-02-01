@@ -4,6 +4,7 @@ emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["JWT", "Auth0", "Node", "jsonwebtoken"]
 published: true
+targetCategories: ["authorization"]
 ---
 
 ## はじめに

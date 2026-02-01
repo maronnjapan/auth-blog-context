@@ -4,6 +4,7 @@ emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Cookie","DeviceBoundSessionCredentials","DBSC","Session"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 以前の記事でDevice Boudn Session Credentials(以降DBSC)を試していました。

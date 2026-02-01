@@ -4,6 +4,7 @@ emoji: "💭"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 私は個人利用でAuth0を使用しています。

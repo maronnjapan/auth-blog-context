@@ -4,6 +4,7 @@ emoji: "😎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0", "AWS", "EventBridge", "SQS", "Lambda"]
 published: true
+targetCategories: ["security"]
 ---
 
 ## はじめに

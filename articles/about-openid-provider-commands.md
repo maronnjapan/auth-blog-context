@@ -4,6 +4,7 @@ emoji: "💨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OpenID"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 先日以下の投稿を見かけました。

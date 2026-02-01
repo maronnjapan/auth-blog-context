@@ -4,6 +4,7 @@ emoji: "🐥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0","SPA","Javascript","OpenID Connect","OAuth2"]
 published: true
+targetCategories: ["authorization"]
 published_at: 2024-12-23 08:00
 ---
 この記事はDigital Identity技術勉強会 #iddance Advent Calendar 2024 23日目の記事となります。

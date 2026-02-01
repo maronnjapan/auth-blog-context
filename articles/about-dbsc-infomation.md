@@ -4,6 +4,7 @@ emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["google","Cookie","DeviceBoundSessionCredentials","DBSC","Session"]
 published: true
+targetCategories: ["security"]
 ---
 
 ## はじめに
