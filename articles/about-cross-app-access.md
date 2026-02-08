@@ -6,8 +6,6 @@ topics: ["Okta", "CrossAppAccess", "XAA", "MCP"]
 published: true
 targetCategories: [ "authorization"]
 ---
-この記事は[Digital Identity技術勉強会 #iddance Advent Calendar 2025](https://qiita.com/advent-calendar/2025/iddance)の15日目の記事です。
-https://qiita.com/advent-calendar/2025/iddance
 
 ## はじめに
 現在AIエージェントをはじめとした、Non-HumanのID管理というのが求められています。
@@ -40,6 +38,7 @@ Cross App Accessを用いることで、権限の管理をOktaなどのIdPで行
 例として以下のような、ClaudeとMCPが様々接続できるケースを考えます。
 ![](/images/about-cross-app-access/agent-and-mcp.png)
 [# MCP（Model Context Protocol）の紹介 – 現代のAIアシスタントのための新しい共通プロトコル](https://josysnavi.jp/2025/introduction-to-mcp) より引用
+
 人間ではないClaudeが複数のMCPサーバーと接続していると捉えてください。
 この場合、ITの管理者がユーザーごとに利用可能MCPサーバーを設定する方法を考えてみてください。
 以下のようなフローであれば、一応管理ができるかと思います。

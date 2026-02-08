@@ -22,6 +22,7 @@ targetCategories: ["authentication", "authorization"]
 モノリシックなプロジェクトは機能を一つにまとめたものなので、認証・認可周りの機能も合わせて担うことになります。
 ![[マイクロサービスとは？　今さら聞けないDX関連用語をわかりやすく解説](https://dx.ipa.go.jp/microservice) より一部抜粋](/images/aboun-microservices-auth-in-app/2024-01-01_10h53_04.png)
 **[マイクロサービスとは？　今さら聞けない DX 関連用語をわかりやすく解説](https://dx.ipa.go.jp/microservice) より一部抜粋**
+
 また、ID やアクセス管理、レスポンス内容の決定やリクエストの振り分けも行います。
 モノリシックなプロジェクトでは、HTPP 条件下で基本的にサーバー側で生成されたセッションを使用して、それを元にユーザーを扱います。
 なので、流れとしては以下のようになります。
