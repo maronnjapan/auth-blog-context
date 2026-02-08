@@ -3,6 +3,7 @@ title: "Auth0にPassKeyが搭載されたぞ！！！"
 emoji: "⛳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0", "PassKey", "FIDO"]
+targetCategories: ["authentication"]
 published: true
 ---
 
