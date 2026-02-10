@@ -11,7 +11,6 @@ targetCategories: ["authentication"]
 
 開発の都合上、[node-jwonwebtoke](https://github.com/auth0/node-jsonwebtoken/tree/master)の verify 部分の処理について理解する必要がありました。
 今回は verify の役割を担う、[verify.js](https://github.com/auth0/node-jsonwebtoken/blob/master/verify.js)の処理についてみていきます。
-でははじめます。
 
 ## jsonwebtoken の verify.js の流れ
 
