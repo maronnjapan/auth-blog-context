@@ -1,7 +1,7 @@
 ---
 title: "Auth0のEvent StreamとAWS EventBridgeを連携して、リトライ可能かつ非同期に情報を連携する"
 emoji: "😎"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech" 
 topics: ["Auth0", "AWS", "EventBridge", "SQS", "Lambda"]
 published: true
 targetCategories: ["security"]
