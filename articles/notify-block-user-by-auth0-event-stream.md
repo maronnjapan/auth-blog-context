@@ -50,7 +50,7 @@ https://github.com/maronnjapan/sample-id-app/tree/notification-blocked-user
 
 ## アプリのデモ
 まず、今回作成したアプリケーションのデモを紹介します。
-![](/images/notify-block-user-by-auth0-event-stream/notify-user-block-demo.gif)
+![](/images/notify-block-user-by-auth0-event-stream/notify-user-block-demo2.gif)
 上記のデモでは、まずAuth0を使いデモアプリケーションのログイン処理を行っています。
 その後、内部でAPIを叩き、アクセストークンの検証がOKであれば値が表示されるようになっています。
 特にブロックをしなければ、実行ボタンを押すたびに正常にAPIから値が返ってくることが分かります。
