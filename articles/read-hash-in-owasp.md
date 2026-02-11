@@ -4,6 +4,7 @@ emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Hash", "OWASP", "Password"]
 published: true
+targetCategories: ["security"]
 ---
 
 ## はじめに

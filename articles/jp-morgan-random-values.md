@@ -4,6 +4,7 @@ emoji: "🌊"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["量子コンピューター","Random"]
 published: true
+targetCategories: ["security"]
 ---
 :::message alert
 ## 読む前の注意

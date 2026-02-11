@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0","EventStream","zennfes2025infra"]
 published: true
 published_at: 2025-10-21 08:30
+targetCategories: ["scurity"]
 ---
 
 ## はじめに

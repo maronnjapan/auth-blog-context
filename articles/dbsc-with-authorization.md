@@ -4,6 +4,7 @@ emoji: "😸"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["DBSC","OIDC"]
 published: true
+targetCategories: ["authorization","security"]
 ---
 ## はじめに
 Device Bound Session Credentials(DBSC)のプレビュー版が提供されましたね。

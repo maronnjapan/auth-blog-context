@@ -4,6 +4,7 @@ emoji: "🌟"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["DeviceBoundSessionCredentials","DBSC","Next.js","Cookie"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 先日以下のツイートを見かけました。

@@ -4,6 +4,7 @@ emoji: "🕌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OAuth", "OpenIdConnect", "Auth0"]
 published: true
+targetCategories: ["authentication"]
 ---
 
 ## はじめに

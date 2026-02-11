@@ -4,6 +4,7 @@ emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["okta","swa","OpenTofu"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 OktaにはSAML、Web Services Federation（WS-Fed）、OpenID Connect（OIDC）などのフェデレーションプロトコルをサポートしない外部のWebアプリケーションにシングルサインオン（SSO）の機能を提供するための仕組みがあります。

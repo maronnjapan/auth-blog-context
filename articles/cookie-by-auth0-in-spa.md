@@ -4,7 +4,7 @@ emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0","SPA","Cookie","Javascript"]
 published: true
-targetCategories: ["security"]
+targetCategories: ["authentication"]
 ---
 ## この記事の内容について
 正直、[Auth0のコミュニティサイト](https://community.auth0.com/t/auth0-is-authenticated-cookie-legacy-auth0-is-authenticated-cookie/108219)で展開された内容を読めば十分です。

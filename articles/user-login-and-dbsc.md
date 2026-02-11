@@ -4,6 +4,7 @@ emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["DeviceBoundSessionCredentials","Auth","Session","Cookie"]
 published: true
+targetCategories: ["authentication"]
 ---
 ## はじめに
 最近Xにて、証券系のサイトのセッションの扱いが話題になっていました。

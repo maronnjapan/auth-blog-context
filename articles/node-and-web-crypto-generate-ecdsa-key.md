@@ -4,6 +4,7 @@ emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ECDSA","Crypto","Node"]
 published: true
+targetCategories: ["security"]
 ---
 ## はじめに
 JavaScriptには鍵周りを取り扱うことができるCryptoがあります。

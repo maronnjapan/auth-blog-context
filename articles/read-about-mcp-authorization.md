@@ -4,6 +4,7 @@ emoji: "💨"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: []
 published: true
+targetCategories: ["authorization"]
 ---
 先日以下のプルリクエストがクローズされました。
 https://github.com/modelcontextprotocol/modelcontextprotocol/pull/284

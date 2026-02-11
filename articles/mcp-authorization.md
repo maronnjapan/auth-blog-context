@@ -4,7 +4,7 @@ emoji: "📌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["MCP","OAuth","Auth0"]
 published: true
-published_at: 2025-07-07 08:00
+targetCategories: ["authorization"]
 ---
 ## はじめに
 昨今の生成AIの進歩は凄まじいものがあります。

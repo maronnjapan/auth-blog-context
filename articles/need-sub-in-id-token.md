@@ -4,6 +4,7 @@ emoji: "🦁"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OIDC", "JWT", "IDToken", "sub"]
 published: true
+targetCategories: ["authentication"]
 ---
 
 ## はじめに

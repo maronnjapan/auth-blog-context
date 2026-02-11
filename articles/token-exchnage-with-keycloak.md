@@ -4,6 +4,7 @@ emoji: "💬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Keycloak","OAuth2","OAuth2TokenExchange"]
 published: true
+targetCategories: ["authorization"]
 ---
 ## はじめに
 APIを公開したいな、その際に認可の仕組みを導入したいなと思った時の選択肢に挙げられるのが[OAuth2.0](https://openid-foundation-japan.github.io/rfc6749.ja.html)かと思います。

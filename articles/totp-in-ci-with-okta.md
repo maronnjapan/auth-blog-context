@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Okta","MFA","TOTP","LDAP"]
 published: true
 published_at: 2025-08-16 22:00
+targetCategories: ["authentication"]
 ---
 ## はじめに
 認証するというと、人間の操作によるものだけではありません。

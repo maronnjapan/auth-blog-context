@@ -4,6 +4,7 @@ emoji: "👿"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["npm","ShaiHulud","postinstall","Trufflehog"]
 published: true
+targetCategories: ["security"]
 ---
 :::message alert
 この記事ですが、あくまで「Shai-Hulud」サプライチェーン攻撃の内容を推測し、疑似的に再現し、なぜすでにまとめていただいている対策が有効なのかを確認するために書いています。

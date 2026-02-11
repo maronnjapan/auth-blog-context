@@ -4,6 +4,7 @@ emoji: "😺"
 type: "tech"
 topics: ["DBSC", "Cookie"]
 published: true
+targetCategories: ["authentication"]
 ---
 (今回は短めです)
 現在Cookieの盗難対策として、[Device Bound Session Credentials](https://w3c.github.io/webappsec-dbsc/)(以降はDBSC)という仕様が提言されています。
