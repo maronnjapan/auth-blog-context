@@ -16,7 +16,7 @@ targetCategories: ["security"]
 デモは以下の通りです。
 ![ユーザーをAuth0でブロックした時のデモ](/images/auth0-and-eventbridge-integrate/notify-user-block-demo4.gif)
 
-[前回の記事](https://zenn.dev/maronn/articles/notify-block-user-by-auth0-event-stream)では、Webhookを使った実装を紹介しましたが、今回はAWSのマネージドサービスを活用することで、より堅牢で運用しやすい構成を実現します。
+[こちらの記事](https://web.maronn-room.com/maronn2/articles/notify-block-user-by-auth0-event-stream)では、Webhookを使った実装を紹介しましたが、今回はAWSのマネージドサービスを活用することで、より堅牢で運用しやすい構成を実現します。
 
 ### この記事のアプローチ
 
@@ -25,11 +25,11 @@ targetCategories: ["security"]
 
 これにより、一時的なネットワーク障害やアプリケーション側のエラーが発生しても、イベントを取りこぼしにくくなります。
 
-### 前回記事との関係
+### 他記事との関係
 
-今回の内容を理解するために、まずは前回の記事との関係性を整理します。
-前回の記事では、Auth0のEvent StreamからWebhookで直接通知を受け取る構成を紹介しました。
-https://zenn.dev/maronn/articles/notify-block-user-by-auth0-event-stream
+今回の内容を理解するために、まずは他の記事との関係性を整理します。
+こちらの記事では、Auth0のEvent StreamからWebhookで直接通知を受け取る構成を紹介しました。
+https://web.maronn-room.com/maronn2/articles/notify-block-user-by-auth0-event-stream
 
 この前回のWebhook版はシンプルで実装しやすいというメリットがある一方で、以下のような課題も抱えていました。
 
@@ -127,7 +127,7 @@ Event Streamは、Webhook URLとAWS EventBridgeの2つの配信先をサポー�
 https://auth0.com/docs/customize/events/create-an-event-stream
 
 まず一つ目が、Webhook URLです。
-これは[前回の記事](https://zenn.dev/maronn/articles/notify-block-user-by-auth0-event-stream)で使用した方式で、指定したURLに対してHTTP POSTリクエストでイベントを送信する方式になります。
+これは[こちらの記事](https://web.maronn-room.com/maronn2/articles/notify-block-user-by-auth0-event-stream)で使用した方式で、指定したURLに対してHTTP POSTリクエストでイベントを送信する方式になります。
 実装がシンプルで、任意のエンドポイントに配信できるというメリットがある一方で、シークレットの管理や、リトライ処理や障害対応を自前で実装する必要があります。
 
 そして二つ目が、今回使用するAWS EventBridgeです。
@@ -487,8 +487,8 @@ https://auth0.com/docs/customize/events
 Auth0とAWS EventBridgeの連携：
 https://auth0.com/docs/ja-jp/customize/events/create-an-event-stream#aws-eventbridge
 
-前回記事（Webhook版）：
-https://zenn.dev/maronn/articles/notify-block-user-by-auth0-event-stream
+Webhook版記事：
+https://web.maronn-room.com/maronn2/articles/notify-block-user-by-auth0-event-stream
 
 参考にした記事：
 https://dev.classmethod.jp/articles/auth0-log-streams-to-amazon-eventbridge-with-cloudformation/
