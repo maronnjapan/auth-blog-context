@@ -2,10 +2,10 @@
 title: "Auth0のユーザーブロックをリアルタイム検知する仕組みをEvent Streamで作成した"
 emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Auth0","EventStream","zennfes2025infra"]
+topics: ["Auth0","EventStream"]
 published: true
 published_at: 2025-10-21 08:30
-targetCategories: ["scurity"]
+targetCategories: ["security"]
 ---
 
 ## はじめに
