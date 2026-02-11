@@ -14,7 +14,7 @@ targetCategories: ["security"]
 この記事では、Auth0でユーザーをブロックした際に、自作アプリケーション側にもブロック状態が自動的に反映される仕組みを構築します。
 具体的には、Auth0の管理画面でユーザーをブロックすると、その情報がAWS EventBridge経由でアプリケーションに通知され、即座にブロック状態が反映されます。
 デモは以下の通りです。
-![ユーザーをAuth0でブロックした時のデモ](/images/auth0-and-eventbridge-integrate/notify-user-block-demo2.gif)
+![ユーザーをAuth0でブロックした時のデモ](/images/auth0-and-eventbridge-integrate/notify-user-block-demo.gif)
 
 [前回の記事](https://zenn.dev/maronn/articles/notify-block-user-by-auth0-event-stream)では、Webhookを使った実装を紹介しましたが、今回はAWSのマネージドサービスを活用することで、より堅牢で運用しやすい構成を実現します。
 

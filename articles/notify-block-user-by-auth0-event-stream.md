@@ -4,7 +4,6 @@ emoji: "🙆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0","EventStream"]
 published: true
-published_at: 2025-10-21 08:30
 targetCategories: ["security"]
 ---
 

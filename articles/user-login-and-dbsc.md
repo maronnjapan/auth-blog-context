@@ -15,8 +15,8 @@ targetCategories: ["authentication"]
 そちらについては、以下の仕様書や、過去の記事などを参照ください。
 https://developer.chrome.com/docs/web-platform/device-bound-session-credentials?hl=ja
 https://w3c.github.io/webappsec-dbsc/#device-bound-session-expiration-timestamp
-https://zenn.dev/maronn/articles/program-dbsc-app
-https://zenn.dev/maronn/articles/about-dbsc-infomation
+https://web.maronn-room.com/maronn2/articles/program-dbsc-app
+https://web.maronn-room.com/maronn2/articles/about-dbsc-infomation
 ## 実装の前に
 実装する前に、今回の記事を書くきっかけの投稿をどういう軸で見ていくかを記載します。
 当該投稿をこの記事に対して都合が良いように以下の解釈をします。※
