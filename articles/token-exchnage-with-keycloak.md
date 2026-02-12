@@ -33,7 +33,7 @@ API1で受け取ったアクセストークンをそのまま、API2に渡すと
 ### 仕様について
 OAuth2 Token Exchangeは一度何かしらのフローで取得したアクセストークン・リフレッシュトークン・IDトークンなどを特定のデータに再度生成し直すための仕様です。
 技術の概要について、以下川崎さんの記事を参照ください。
-[https://qiita.com/TakahikoKawasaki/items/d9be1b509ade87c337f2](https://qiita.com/TakahikoKawasaki/items/d9be1b509ade87c337f2)
+https://qiita.com/TakahikoKawasaki/items/d9be1b509ade87c337f2
 必要な知識は上記に揃っているが、雑にまとめると以下の二点でとなります。
 - 権限を追加・削除したトークンに交換
 - 別のアカウントの代行者と振舞えるトークンに交換
@@ -42,7 +42,7 @@ OAuth2 Token Exchangeは一度何かしらのフローで取得したアクセ�
 とはいえ、権限の追加・絞り込みや他者へのなりすましができるというのが肝かなと思います。
 ### ユースケースについて
 詳しくは以下kokukumaさんの記事を参照してください。
-[https://qiita.com/kokukuma/items/34b5aacad9fd9a894730](https://qiita.com/kokukuma/items/34b5aacad9fd9a894730)
+https://qiita.com/kokukuma/items/34b5aacad9fd9a894730
 ユースケースに関しては、これ以上解説することはないです。
 以上がOAuth2 Token Exchangeに関する概要です。
 正直概要に関しては紹介した二つの記事が強すぎるので、この記事のオリジナリティを出すために実際に動かして試してみようと思います。
