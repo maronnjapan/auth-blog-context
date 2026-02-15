@@ -3,7 +3,7 @@ title: "OktaでCIBAが用意できない時の代替案について(User Factor 
 emoji: "🔐"
 type: "tech"
 topics: ["okta", "ciba", "authentication", "oidc"]
-targetCategories: ["authorization"]
+targetCategories: ["authentication"]
 published: true
 ---
 ## はじめに
