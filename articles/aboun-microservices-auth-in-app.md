@@ -1,7 +1,7 @@
 ---
 title: "マイクロサービスにおける認証・認可を考える"
 emoji: "😸"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech" 
 topics: ["Microservices"]
 published: true
 targetCategories: ["authentication", "authorization"]
