@@ -1,9 +1,9 @@
 ---
-title: "Auth0のToken VaultをAI Agentの文脈から独立して使ってみて、ユースケースを考えてみる"
+title: "Auth0のToken VaultをAI Agentの文脈から独立触って感じたユースケースや所感について"
 emoji: "📑"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Auth0", "Token Vault"] # トピックは複数指定可能
-published: false
+published: true
 targetCategories: ["security"] # カテゴリーは複数指定可能
 ---
 
@@ -170,7 +170,7 @@ Cross App Accessが独自の仕様体系（Identity Assertion Authorization Gran
 
 :::message
 Cross App Accessについて詳しく知りたい方は、以前書いた記事も参考にしてください。
-https://zenn.dev/maronn/articles/about-cross-app-access
+https://web.maronn-room.com/maronn2/articles/about-cross-app-access
 :::
 
 ### 認証の代替ではない
