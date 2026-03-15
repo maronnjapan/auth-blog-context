@@ -4,7 +4,7 @@ emoji: "📑"
 type: "tech"
 topics: ["Auth0", "Token Vault"] 
 published: true
-targetCategories: ["security"] # カテゴリーは複数指定可能
+targetCategories: ["security"]
 ---
 
 ## はじめに
