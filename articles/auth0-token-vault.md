@@ -1,7 +1,7 @@
 ---
 title: "Auth0のToken VaultをAI Agentの文脈から独立触って感じたユースケースや所感について"
 emoji: "📑"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "tech"
 topics: ["Auth0", "Token Vault"] # トピックは複数指定可能
 published: true
 targetCategories: ["security"] # カテゴリーは複数指定可能
