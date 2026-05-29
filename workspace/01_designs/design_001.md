@@ -1,7 +1,7 @@
 ---
 id: design_001
 type: design
-status: review
+status: needs_revision
 revision_count: 0
 source: npm-trusted-provider.md
 output_type: long_article
@@ -62,6 +62,7 @@ Trusted Publisherへの移行で本当に詰まるのは仕組みの理解では
 - npm access tokenとは何か（publish権限を持つ資格情報であること）を短く確認する。
 - CI/CDのSecretに長期tokenを置くと何がリスクになるかを書く。具体的には、漏洩時にtokenの有効期間中ずっと悪用され得る点。
 - token漏洩時に起こり得ること（悪意あるバージョンのpublishなど）を失敗シナリオとして1つ挙げる。
+- 上記論拠となりそうなニュースのリンクと概要を記載する。
 - だから「短命トークンで都度publishしたい」という動機につなげる。
 
 **著者の熱量が入る場所:**
@@ -162,6 +163,7 @@ Trusted Publisherへの移行で本当に詰まるのは仕組みの理解では
 **節内で書くこと:**
 - npm画面で入力する値（owner / repository / workflow file名）を、CLI側で表示して転記しやすくする工夫を書く。
 - 人間が見ても進められ、AIに渡しても入力補助を任せられる形になることを書く。
+- 実際にAIが操作できるプロンプトも出力されるようにし、そのプロンプト例を示す。
 - 重要操作（設定確定）の前に人間が確認する線引きを再掲する。
 
 **著者の熱量が入る場所:**
@@ -232,7 +234,11 @@ output_type: long_article
 
 # Review Log
 
-まだレビューなし。
+## レビュー一回目
+- Trusted Publisherの設定画面の具体的UIの陳腐化は許容する。今サクッと動かせることを優先する。
+- 「半自動ガイドをAIに渡す」具体例については書いてほしい部分に書いておいたので解決。
+- 初回publishガイドスクリプトは実コードをのせるがtoggleなどでデフォルトは隠す
+- 読者はnpmでのinstallは基本しているのと、GitHub Actionsの存在と簡単な構文は知っている。
 
 ---
 
