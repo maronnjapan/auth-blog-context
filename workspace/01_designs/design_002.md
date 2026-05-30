@@ -1,7 +1,7 @@
 ---
 id: design_002
 type: design
-status: needs_revision
+status: revised
 revision_count: 1
 source: token-vault.md
 output_type: long_article
